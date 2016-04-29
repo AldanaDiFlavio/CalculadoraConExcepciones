@@ -1,0 +1,11 @@
+package ar.edu.unlam.tallerweb;
+
+public class Calculadora {
+
+	public double dividir (double dividendo, double divisor) throws Exception {
+		if(divisor!=0)
+			return dividendo/divisor;
+		else
+			throw new Exception("Divisor igual a cero!");
+	}
+}
